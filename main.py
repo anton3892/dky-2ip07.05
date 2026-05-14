@@ -9,16 +9,16 @@
 # for x in num:
 #     f = 1
 #     for j in x:
-#         f *= int(j)
+#         f = int(j)
 #     list1.append(f)
 #
 # if list1:
 #     generators = 0
 #
 #     for f in list1:
-#         scet = list1.count(f) #считаем сколько раз  произведение встречается в списке
-#         if scet > generators:
-#             generators = scet
+#         l = list1.count(f) #считаем сколько раз  произведение встречается в списке
+#         if l > generators:
+#             generators = l
 #     print(generators)
 # else:
 #     print(0)
@@ -54,7 +54,7 @@
 # print(result)
 
 #4
-# data = input().split()
+# data = input("Введите данные: ").split()
 # n, k, m = int(data[0]), int(data[1]), int(data[2])
 #
 # total = 2 * n
